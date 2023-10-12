@@ -1,0 +1,87 @@
+.homePage{
+    background-color: black;
+    background-image: linear-gradient(to top, rgba(5, 5, 5, 0.301) 60%, rgb(0, 0, 0) 80%, rgb(0, 0, 0) 20%), url('../Images/space.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode:hard-light; */
+    color: white;
+    font-family: 'Space Grotesk';
+}
+
+.myNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1rem;
+    align-items: center;
+}
+
+.myNav img{
+    cursor: pointer;
+}
+
+.navRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navRight div{
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+.midpage{
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.midpage img{
+    max-width: 27rem;
+}
+
+.footer{
+    margin: 0 2rem;
+    padding: 2rem 0;
+    /* position: relative; */
+}
+
+.footer h4{ 
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    letter-spacing: 3px;
+}
+
+.learn{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+}
+
+.footlinks p{
+    cursor: pointer;
+    width: 8rem;
+}
+
+.footlinks p:hover{
+    color: grey;
+}
+
+.footlinks div{
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.moon{
+    display: none;
+    /* max-width: 35rem; */
+    /* text-align: center;
+    margin: auto; */
+    /* position: absolute; */
+    /* top: 60rem; */
+    /* bottom: 0; */
+    /* top: 10rem; */
+}
+
