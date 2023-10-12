@@ -85,3 +85,57 @@
     /* top: 10rem; */
 }
 
+@media screen and (max-width: 575px) {
+    .twitter, .snap{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wallet{
+        width: 10rem;
+    }
+
+    .logo{
+        width: 10rem;
+    }
+
+    .midpage img{
+        max-width: 20rem;
+    }
+
+    .footer h4{ 
+        font-size: 1.5rem;
+    }
+    
+    .learn{
+        font-size: 1rem;
+    }
+
+    .footlinks div{
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footlinks p{
+        margin: 0.5rem 0;
+    }
+
+    .footer, .footlinks{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .wallet{
+        width: 7rem;
+    }
+
+    .logo{
+        width: 7rem;
+    }
+
+}

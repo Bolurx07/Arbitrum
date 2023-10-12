@@ -11,11 +11,11 @@ const Index = () => {
           <img src={moon} alt="moon" className='moon'/>
 
         <nav className='myNav'>
-            <img src={mainlogo} alt="logo" />
+            <img src={mainlogo} alt="logo" className='logo'/>
             <div className='navRight'>
-              <div><img src={wallet} alt="wallet button"  /></div>
-              <div><img src={snap} alt="logo" /></div>
-              <div><FaTwitter size={25}/></div>
+              <div><img src={wallet} alt="wallet button" className='wallet' /></div>
+              <div className='snap'><img src={snap} alt="logo" /></div>
+              <div className='twitter'><FaTwitter size={25}/></div>
             </div>
         </nav>
         <div className='midpage'>
